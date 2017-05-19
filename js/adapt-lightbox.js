@@ -42,7 +42,7 @@ define([
 
         lightboxOpen: function(e) {
             e.preventDefault();
-            $('.lightbox-content-wrap').html(LightboxHandler.lightboxes[$(this).attr("id")].$el);
+            LightboxHandler.lightboxes[$(this).attr("id")].render();
             $('.lightbox-wrapper').fadeIn('slow');
         }
        
