@@ -1,0 +1,18 @@
+{
+    "name": "adapt-lightbox",
+    "repository": "",
+    "framework": "^1.0.0",
+    "version": "1.0.0",
+    "homepage": "",
+    "issues": "",
+    "displayName": "Lightbox for Adapt",
+    "extension": "Lightbox for Adapt",
+    "description": "Lightbox at component level",
+    "main": "/js/adapt-lightbox.js",
+    "keywords": [
+        "adapt-plugin",
+        "adapt-extension"
+    ],
+    "license": "GPLv3",
+    "targetAttribute": "_componentLightbox"
+}
