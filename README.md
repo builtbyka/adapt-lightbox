@@ -5,7 +5,7 @@
 Download and include in the extensions folder of the adapt framework. 
 
 Example JSON - place inside component.json
-
+```
 "_componentLightboxes": {
     "lightbox1": {
         "_id" : "lightbox1",
@@ -18,5 +18,6 @@ Example JSON - place inside component.json
         "content" : "another lightbox"
     }
 }
+```
 
 The button / link should have the class 'adapt-lightbox' and an id which matches the reference in the component.json.
